@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="brand">
+        <span class="menu-icon">☰</span>
+        <span class="logo">YouTube</span>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <button>🔍</button>
+        <button class="mic">🎙️</button>
+      </div>
+      <div class="actions">
+        <button class="icon">➕</button>
+        <button class="icon">🔔</button>
+        <div class="avatar">JD</div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <nav>
+          <a class="active" href="#">Home</a>
+          <a href="#">Shorts</a>
+          <a href="#">Subscriptions</a>
+        </nav>
+        <div class="divider"></div>
+        <nav>
+          <a href="#">Library</a>
+          <a href="#">History</a>
+          <a href="#">Your videos</a>
+          <a href="#">Watch later</a>
+          <a href="#">Liked videos</a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <div class="hero">
+          <div>
+            <p class="hero-tag">Featured</p>
+            <h1>Build your next video story</h1>
+            <p>
+              Capture attention with bold thumbnails, engaging titles, and
+              playlists that keep viewers hooked.
+            </p>
+            <button class="primary">Start creating</button>
+          </div>
+          <div class="hero-card">
+            <div class="hero-thumb"></div>
+            <div>
+              <h3>How creators grow in 2024</h3>
+              <p>22 min · 1.2M views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="filters">
+          <button class="chip active">All</button>
+          <button class="chip">Live</button>
+          <button class="chip">Music</button>
+          <button class="chip">Gaming</button>
+          <button class="chip">Podcasts</button>
+          <button class="chip">Recently uploaded</button>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="thumb"></div>
+            <div class="meta">
+              <div class="channel">🎬</div>
+              <div>
+                <h4>Designing cinematic thumbnails</h4>
+                <p>Studio Nerd · 184K views · 2 days ago</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb alt"></div>
+            <div class="meta">
+              <div class="channel">🎧</div>
+              <div>
+                <h4>Lo-fi focus session for creators</h4>
+                <p>Focus Loop · 842K views · 1 week ago</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb live"></div>
+            <div class="meta">
+              <div class="channel">🕹️</div>
+              <div>
+                <h4>Live: Indie game dev Q&amp;A</h4>
+                <p>Pixel Guild · 12K watching</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb purple"></div>
+            <div class="meta">
+              <div class="channel">📚</div>
+              <div>
+                <h4>Productivity systems for editors</h4>
+                <p>Workflow Lab · 64K views · 3 days ago</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb teal"></div>
+            <div class="meta">
+              <div class="channel">🎥</div>
+              <div>
+                <h4>Lighting basics in small spaces</h4>
+                <p>Creators Hub · 330K views · 5 days ago</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb gold"></div>
+            <div class="meta">
+              <div class="channel">🧠</div>
+              <div>
+                <h4>Storyboarding with AI tools</h4>
+                <p>Idea Forge · 98K views · 8 hours ago</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
